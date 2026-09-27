@@ -1,0 +1,7 @@
+generated/fiscal_profile/*
+__pycache__/*
+
+generated/_copy_test.xlsm
+generated/_sheet_test.xlsm
+
+generated/charts/*

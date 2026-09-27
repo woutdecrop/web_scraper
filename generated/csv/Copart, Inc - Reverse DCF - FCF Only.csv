@@ -1,0 +1,33 @@
+﻿"Copart, Inc. (FCF Only)",,,,,,,,,,,
+,Reverse DCF,,,,,,,,,,
+,,,,,,,,,,,
+,Inputs,,,,,,,,,,Inputs
+,Current stock price,27.59,,,,,,,,,Formula
+,Shares outstanding (million),925.8115,,fcf,stockbased,cap,dep,dif,,,
+,Perpetuity growth rate ,0.03,,428.8,0,0,0,=G7-H7,,,
+,Desired return (discount rate),0.1,,,,,,,,,
+,FCF year 1 (million),=E7-F7+I7,,,,,,,,,
+,,,=H7-G7,,,,,,,,
+,Growth rate year 1-10,0.25013671875,=E7-F7+I7,,,,,,,,
+,,,,,,,,,,,
+,Cash flow estimates,1,=C13+1,=D13+1,=E13+1,=F13+1,=G13+1,=H13+1,=I13+1,=J13+1,=K13+1
+,FCF,=C9,=C14*(1+$C$11),=D14*(1+$C$11),=E14*(1+$C$11),=F14*(1+$C$11),=G14*(1+$C$11),=H14*(1+$C$11),=I14*(1+$C$11),=J14*(1+$C$11),=K14*(1+$C$11)
+,Growth,,=(D14-C14)/C14,=(E14-D14)/D14,=(F14-E14)/E14,=(G14-F14)/F14,=(H14-G14)/G14,=(I14-H14)/H14,=(J14-I14)/I14,=(K14-J14)/J14,=(L14-K14)/K14
+,,,,,,,,,,,
+,Discounted FCFs,1,=C17+1,=D17+1,=E17+1,=F17+1,=G17+1,=H17+1,=I17+1,=J17+1,=K17+1
+,FCF,=C14,=D14,=E14,=F14,=G14,=H14,=I14,=J14,=K14,=L14
+,Present value,=C18/(1+$C$8)^C17,=D18/(1+$C$8)^D17,=E18/(1+$C$8)^E17,=F18/(1+$C$8)^F17,=G18/(1+$C$8)^G17,=H18/(1+$C$8)^H17,=I18/(1+$C$8)^I17,=J18/(1+$C$8)^J17,=K18/(1+$C$8)^K17,=L18/(1+$C$8)^L17
+,Sum discounted CFs,=SUM(C19:L19),,,,,,,,,
+,,,,,,,,,,,
+,Terminal value,,,,,,,,,,
+,TV,=((L18*(1+C7)/(C8-C7))),,,,,,,,,
+,Present Value TV,=C23/(1+C8)^10,,,,,,,,,
+,,,,,,,,,,,
+,Total equity value,,,,,,,,,,
+,Total equity value,=C24+C20,,,,,,,,,
+,,,,,,,,,,,
+,Value per share,,,,,,,,,,
+,Intrinsic Value,=C27/C6,,,,,,,,,
+,,,,,,,,,,,
+,Upside/downside,=((C30-C5)/C5),,,,,,,,,
+,,=C32*1000,,,,,,,,,

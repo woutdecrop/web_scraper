@@ -1,0 +1,16 @@
+Stock Name / Company	Ticker	Currency	ISIN / Code	Exchange
+Wise	WISE	GBP	WISEGB00BL9YR756	London Stock Exchange (LSE)
+MercadoLibre	MELI	GBX	MELIUS58733R1023	Nasdaq
+Amazon.com, Inc.	AMZN	USD	AMZNUS0231351067	Nasdaq
+Topicus	TOCP	USD	TOICA89072T1021	Euronext Amsterdam
+Alphabet	GOOGL / GOOG	CAD / USD	OGLUS02079K3059	Nasdaq / TSX
+Constellation Software	CSU	USD	CSUCA21037X1006	Toronto Stock Exchange
+Röko	RKO?	DKK	ROKO BSE0023950795	Possibly Swedish
+Copart, Inc.	CPRT	SEK	CPRTUS2172041061	Nasdaq
+Medpace Holdings	MEDP	USD	EDPUS58506Q1094	Nasdaq
+Chapters	CHAPS	USD	CHGDE0006618309	Canadian / OTC
+Dino Polska	DIN	EUR / PLN	DNPPLDINPL00011	Warsaw Stock Exchange
+ASML Holding NV	ASML	PLN / EUR / USD	ASMLNL0010273215	Nasdaq / Euronext
+Duolingo	DUOL	EUR / USD	DUOLUS26603R1068	Nasdaq
+S&P Global Inc.	SPGI	USD	US78409V1044	New York Stock Exchange (NYSE)
+Hermes International	RMS	EUR	FR0000052292	Euronext Paris

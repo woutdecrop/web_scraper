@@ -1,0 +1,3 @@
+Stock Name / Company	Ticker	Currency	ISIN / Code	Exchange
+S&P Global Inc.	SPGI	USD	US78409V1044	New York Stock Exchange (NYSE)
+Hermes International	RMS	EUR	FR0000052292	Euronext Paris
